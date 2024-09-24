@@ -3,27 +3,38 @@ This project is a Speech Recognition App built using Streamlit for a web-based i
 It uses Python's SpeechRecognition library to transcribe speech to text, allowing users to interact with the app via their microphone. 
 The app is designed to recognize speech, transcribe it, and display the transcribed text.
 
-##FEATURES
+## DETAILS
+
 -Transcribes speech to text using Google Web Speech API
--Simple web interface using Streamlit
--Progress spinner to show transcription progress
--Displays transcription results and history in the sidebar
+
+-Simple web interface using Streamlit.
 
 ## 🛠️ INSTALLATION
 To run this project locally, follow these steps:
 
 **Clone the repository:**
 **code**
-git clone https://github.com/your-username/streamlit-speech-recognition.git
+git clone https://github.com/kemkemindata/Speech-Recognition-project.git
+
 cd streamlit-speech-recognition
 
+
+
 **Set up a virtual environment:**
+
 **code**
+
 python -m venv venv
+
 source venv/bin/activate    # For Linux/MacOS
+
 venv\Scripts\activate       # For Windows
 
+
+
+
 **Install the required dependencies:**
+
 **The file containing all the dependencies is availabe as 'reqirements.txt'**
 pip install -r requirements.txt
 
